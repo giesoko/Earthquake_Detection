@@ -10,6 +10,6 @@ modularization with package
 import latest_earthquake
 
 if __name__ == '__main__':
-    print('Latest Earthquake Detection App')
+    print('Live Earthquake Detection App')
     result = latest_earthquake.data_extraction()
     latest_earthquake.show_data(result)
